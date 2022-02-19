@@ -10,6 +10,7 @@ header,section {
   width: 100%;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 header {
@@ -27,6 +28,7 @@ header {
 
 .logo {
   width: 200px;
+  height: auto;
 }
 
 hr {
@@ -74,3 +76,15 @@ i::before {
   height: 24px;
 }
      
+section .container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+img {
+  width: 380px;
+  height: 200px;
+  margin-top: 15px;
+}
