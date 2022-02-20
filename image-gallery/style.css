@@ -80,11 +80,11 @@ section .container {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 img {
-  width: 380px;
-  height: 200px;
+  width: 500px;
+  height: 340px;
   margin-top: 15px;
 }
